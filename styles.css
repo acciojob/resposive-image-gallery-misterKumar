@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+img {
+  display: flex;
+  margin: 10px;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0 rgba(0, 0, 0, 0.3); /* Update the box-shadow property values */
+  max-width: 25vw;
+}
